@@ -1,0 +1,45 @@
+@font-face {
+  font-family: myFont;
+  src: url(./fonts/dmSansMedium.ttf)
+}
+
+html, body {
+  min-height: 100vh;
+  position: relative;
+}
+
+body {
+  font-family: myFont;
+  padding: 20px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* For ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
